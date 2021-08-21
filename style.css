@@ -135,6 +135,12 @@ a:hover {
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
+.d-bloc a .icon-lg,
+.d-bloc a .icon-md,
+.d-bloc a .icon-sm,
+.d-bloc a .icon-xl {
+    color: #3E3E3E;
+}
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -709,10 +715,13 @@ p {
     font-size: 16px;
     font-weight: 700;
 }
-
+.padding {
+    padding: 15px;
+}
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    color:#3E3E3E!important;
 }
 
 h2 {
@@ -745,9 +754,14 @@ h4 {
     margin-bottom: 14px;
     margin-top: 24px;
 }
-
 .white {
-    color: #FFFFFF!important;
+    color: white!important;
+}
+
+.text-color {
+    color: #3E3E3E!important;
+    font-size: 1em;
+    font-weight: bold;
 }
 
 .portfolio-thumb {
@@ -786,16 +800,18 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
-
+.paragraph-size {
+    font-size: 1em;
+}
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #D54414;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #C35532!important;
     color: #FFFFFF!important;
 }
 
@@ -835,7 +851,9 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
-
+.fa-facebook {
+    color: #4267B2;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
