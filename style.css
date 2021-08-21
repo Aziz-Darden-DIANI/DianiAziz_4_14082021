@@ -135,12 +135,6 @@ a:hover {
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
-.d-bloc a .icon-lg,
-.d-bloc a .icon-md,
-.d-bloc a .icon-sm,
-.d-bloc a .icon-xl {
-    color: #3E3E3E;
-}
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -721,7 +715,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
-    color:#3E3E3E!important;
+    color:white!important;
+    opacity: 0.9;
 }
 
 h2 {
@@ -758,8 +753,7 @@ h4 {
     color: white!important;
 }
 
-.text-color {
-    color: #3E3E3E!important;
+.text-size {
     font-size: 1em;
     font-weight: bold;
 }
@@ -796,7 +790,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #D54414;
 }
 
 .tc-white {
